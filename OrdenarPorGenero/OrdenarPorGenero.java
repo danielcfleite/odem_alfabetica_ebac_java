@@ -31,6 +31,7 @@ public class OrdenarPorGenero {
             }
         } while (!input.equals("0"));
 
+        scanner.close();
 
         List<Pessoa> usuariosMasculinos = new ArrayList<>();
         List<Pessoa> usuariosFemininos = new ArrayList<>();
